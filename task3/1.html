@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>作用域</title>
+	<script type="text/javascript">
+     var name = 'laruence';
+     function echo() {
+          console.log(name);
+     }
+ 
+     function env() {
+          var name = 'eve';
+          echo();
+     }
+     env();
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
